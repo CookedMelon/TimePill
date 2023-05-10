@@ -126,16 +126,28 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'timepill',
+#         'USER': 'timepill',
+#         'PASSWORD': 'pass_timepill',
+#         'HOST': '106.14.98.161',
+#         'PORT': '3306',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'timepill',
         'USER': 'timepill',
         'PASSWORD': 'pass_timepill',
-        'HOST': '106.14.98.161',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
+
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
